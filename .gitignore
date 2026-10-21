@@ -1,0 +1,25 @@
+# VS缓存文件夹
+.vs/
+ipch/
+
+# 编译输出目录
+x64/
+x86/
+Debug/
+Release/
+
+# VS用户本地配置
+*.suo
+*.vcxproj.user
+
+# 编译中间文件
+*.obj
+*.ilk
+*.exe
+*.pdb
+*.log
+*.tlog
+
+# 其他
+*.idb
+*.natvis
