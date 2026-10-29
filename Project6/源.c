@@ -100,8 +100,8 @@ int main()
 	int flag = 0;
 	while (left <= right)
 	{
-		 mid = (left +( right-left) / 2);
-		if (num > arr[mid])
+		 mid = (left +( right-left) / 2);    //避免太大越结
+		 if (num > arr[mid])
 		{
 			left = mid + 1;
 		}
